@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto&display=swap');
+
+:root {
+  --cor-primaria: #26163E;
+  --cor-blocos: #8858ED;
+  --cor-fontes: #fff;
+  --cor-fundo1: #060506;
+  --cor-fundo2: #232223;
+  --fonte-titulos: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--cor-fontes);
+  background-color: var(--cor-fundo1);
+}
+
+#menuPrincipal {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-primaria);
+  width: 100%;
+  height: 10vh;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-list li {
+  margin-left: -10px; /* Correção: adicione 'px' após o valor */
+  padding: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: var(--cor-fontes);
+}
+
+#logoPrincipal {
+  max-width: 6rem;
+}
+
+#bloco1 {
+  position: absolute;
+  top: 160px;
+  left: 150px;
+  height: 300px;
+  width: 600px;
+  background-color: var(--cor-blocos);
+  border-radius: 30px;
+  z-index: 2;
+  box-shadow: 0 0 20px rgba(218, 112, 214, 0.8);
+  font-family: var(--fonte-titulo);
+}
+
+#bloco1 h1 {
+  margin-left: 60px;
+  font-size: 40px;
+}
+
+#bloco1 h2 {
+  margin-top: -20px ;
+  margin-left: 180px;
+}
+
+#bloco1 h3 {
+  font-size: 80px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+#imgFundo1 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+#iphone {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  margin-top: -550px;
+  margin-left: 890px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+/* Media Query para tela com largura máxima de 768px */
+@media (max-width: 768px) {
+  #menuPrincipal {
+    height: 10vh; /* Reduzir a altura para economizar espaço vertical */
+  }
+
+  #logoPrincipal{
+    max-width: 4rem;
+  }
+
+  #bloco1 {
+    top: 120px; /* Ajuste a posição vertical */
+    left: 30px; /* Ajuste a posição horizontal */
+    height: auto; /* Permitir que o bloco se ajuste verticalmente */
+    width: 80%; /* Reduzir a largura para se ajustar à tela */
+  }
+
+  #bloco1 h1 {
+    margin-left: 40px; /* Ajuste a margem esquerda */
+    font-size: 30px;
+  }
+
+  #bloco1 h2 {
+    margin-top: -10px; /* Ajuste a margem superior */
+    margin-left: 50px; /* Ajuste a margem esquerda */
+    font-size: 20px;
+  }
+
+  #bloco1 h3 {
+    font-size: 60px; /* Reduza o tamanho da fonte */
+    margin-left: 60px; /* Ajuste a margem esquerda */
+    margin-top: 20px; /* Ajuste a margem superior */
+  }
+
+  #imgFundo1{
+    height: 450px;
+  }
+
+  #iphone {
+    display: none;
+  }
+}
