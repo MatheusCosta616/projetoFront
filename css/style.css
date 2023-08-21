@@ -116,6 +116,14 @@ body {
   width: 100%;
   height: 100px;
   margin-top: 500px ;
+  justify-content: center;
+  text-align: center;
+}
+
+#rodape p{
+  font-family: var(--fonte-titulo);
+  margin-top: 0px;;
+  justify-content: center;
 }
 
 #tmais{
@@ -219,10 +227,95 @@ p{
   height: 200px;
 }
 
+#produto6 {
+  border: 1px solid white;
+  width: 200px;
+  height: 290px;
+  border-radius: 2px;
+  margin-left: 1224px;
+  margin-top: -292px;
+}
+
+#produto6 p{
+  text-align: center!important;
+}
+
+#N2010Img{
+  width: 200px;
+  height: 200px;
+}
+
+#produto7 {
+  border: 1px solid white;
+  width: 300px;
+  height: 390px;
+  border-radius: 2px;
+  margin-left: 100px;
+}
+
+#produto7 p{
+  text-align: center!important;
+}
+
+#s22Img{
+  width: 300px;
+  height: 300px;
+}
+
+#produto8 {
+  border: 1px solid white;
+  width: 300px;
+  height: 390px;
+  border-radius: 2px;
+  margin-left: 450px;
+  margin-top: -391px;
+}
+
+#produto8 p{
+  text-align: center!important;
+}
+
+#TectoyImg{
+  width: 300px;
+  height: 300px;
+}
+
+#produto9 {
+  border: 1px solid white;
+  width: 300px;
+  height: 390px;
+  border-radius: 2px;
+  margin-left: 800px;
+  margin-top: -391px;
+}
+
+#produto9 p{
+  text-align: center!important;
+}
+
+#cgImg{
+  width: 300px;
+  height: 300px;
+}
+
+#produto10 {
+  border: 1px solid white;
+  width: 300px;
+  height: 390px;
+  border-radius: 2px;
+  margin-left: 1150px;
+  margin-top: -391px;
+}
+
+#produto10 p{
+  text-align: center!important;
+}
 
 
-
-
+#i13Img{
+  width: 300px;
+  height: 300px;
+}
 
 
 /* Media Query para tela com largura máxima de 768px */
