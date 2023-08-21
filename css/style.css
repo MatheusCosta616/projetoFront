@@ -100,11 +100,29 @@ body {
 #maisVendidos{
   background-color: var(--cor-fundo2);
   width: 100%;
-  height: 350px;
+  height: 360px;
   margin-top: -20px ;
 }
 
+#outrosProdutos{
+  background-color: var(--cor-fundo1);
+  width: 100%;
+  height: 360px;
+  margin-top: 0px ;
+}
+
+#rodape{
+  background-color: var(--cor-primaria);
+  width: 100%;
+  height: 100px;
+  margin-top: 500px ;
+}
+
 #tmais{
+  margin-left: 20px;
+}
+
+#compreTbm{
   margin-left: 20px;
 }
 
@@ -183,6 +201,23 @@ p{
   height: 200px;
 }
 
+#produto5 {
+  border: 1px solid white;
+  width: 200px;
+  height: 290px;
+  border-radius: 2px;
+  margin-left: 974px;
+  margin-top: -292px;
+}
+
+#produto5 p{
+  text-align: center!important;
+}
+
+#V3Img{
+  width: 200px;
+  height: 200px;
+}
 
 
 
