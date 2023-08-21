@@ -129,6 +129,67 @@ p{
   width: 100%;
 }
 
+#produto2 {
+  border: 1px solid white;
+  width: 200px;
+  height: 290px;
+  border-radius: 2px;
+  margin-left: 250px;
+  margin-top: -291px;
+}
+
+#produto2 p{
+  text-align: center!important;
+}
+
+#a54Img{
+  width: 200px;
+  height: 200px;
+}
+
+#produto3 {
+  border: 1px solid white;
+  width: 200px;
+  height: 290px;
+  border-radius: 2px;
+  margin-left: 490px;
+  margin-top: -291px;
+}
+
+#produto3 p{
+  text-align: center!important;
+}
+
+#blackberryImg{
+  width: 200px;
+  height: 200px;
+}
+
+#produto4 {
+  border: 1px solid white;
+  width: 200px;
+  height: 290px;
+  border-radius: 2px;
+  margin-left: 730px;
+  margin-top: -291px;
+}
+
+#produto4 p{
+  text-align: center!important;
+}
+
+#iphone12Img{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
 /* Media Query para tela com largura máxima de 768px */
 @media (max-width: 768px) {
   #menuPrincipal {
