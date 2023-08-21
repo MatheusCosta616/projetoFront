@@ -338,7 +338,7 @@ p{
     height: auto; /* Permitir que o bloco se ajuste verticalmente */
     width: 200px; /* Reduzir a largura para se ajustar à tela */
     margin-left: 27vw;
-    margin-top: -9vh;
+    margin-top: -10vh;
   }
 
   #bloco1 h1 {
