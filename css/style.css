@@ -14,7 +14,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: var(--cor-fontes);
+  color: white;
   background-color: var(--cor-fundo1);
 }
 
@@ -321,9 +321,9 @@ p{
 
 
 /* Media Query para tela com largura máxima de 768px */
-@media (min-width: 360px) and (max-width: 1500px) {
+@media (min-width: 56px) and (max-width: 1500px) {
   #menuPrincipal {
-    width: 910px;
+    width: 100vw;
     height: 10%;
      /* Reduzir a altura para economizar espaço vertical */
   }
@@ -336,30 +336,32 @@ p{
     top: 202px; /* Ajuste a posição vertical */
     left: 30px; /* Ajuste a posição horizontal */
     height: auto; /* Permitir que o bloco se ajuste verticalmente */
-    width: 430px; /* Reduzir a largura para se ajustar à tela */
-    margin-left: 230px;
+    width: 200px; /* Reduzir a largura para se ajustar à tela */
+    margin-left: 30vw;
+    margin-top: -70px;
   }
 
   #bloco1 h1 {
-    margin-left: 80px; /* Ajuste a margem esquerda */
-    font-size: 20px;
+    margin-left: 20px; /* Ajuste a margem esquerda */
+    font-size: 14px;
   }
 
   #bloco1 h2 {
     margin-top: -10px; /* Ajuste a margem superior */
-    margin-left: 110px; /* Ajuste a margem esquerda */
+    margin-left: 10px; /* Ajuste a margem esquerda */
     font-size: 20px;
   }
 
   #bloco1 h3 {
     font-size: 40px; /* Reduza o tamanho da fonte */
-    margin-left: 90px; /* Ajuste a margem esquerda */
-    margin-top: 20px; /* Ajuste a margem superior */
+    margin-left: 0px; /* Ajuste a margem esquerda */
+    margin-top: 20px;
+    text-align: center;
   }
 
   #imgFundo1{
-    height: 450px;
-    width: 910px;
+    height: 34vh;
+    width: 100vw;
   }
 
   #iphone {
@@ -389,7 +391,7 @@ p{
 
   #maisVendidos{
     background-color: var(--cor-fundo2);
-    width: 910px;
+    width: 100vw;
     height: 1000px;
     margin-top: -20px ;
     position: absolute;
@@ -397,22 +399,24 @@ p{
 
   #outrosProdutos{
     background-color: var(--cor-fundo1);
-    width: 910px;
-    height: auto;
-    margin-top: 100px ;
+    width: 100vw;
+    height: 1400px;
+    margin-top: 60px ;
   }
 
   #rodape{
     
     position: absolute;
-    margin-top: 1410px;
-    width: 930px;
+    margin-top: 1982px;
+    width: 100vw;
   
   }
 
   #produto7{
+    width: 200px;
+    height: 290px;
     margin-top: 0;
-    margin-left: 300px;
+    margin-left: 33vw;
   }
 
   #produto7 p{
@@ -420,16 +424,16 @@ p{
   }
   
   #s22Img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
   
   #produto8 {
     border: 1px solid white;
-    width: 300px;
-    height: 390px;
+    width: 200px;
+    height: 290px;
     border-radius: 2px;
-    margin-left: 300px;
+    margin-left: 33vw;
     margin-top: 40px;
   }
   
@@ -438,16 +442,16 @@ p{
   }
   
   #TectoyImg{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
   
   #produto9 {
     border: 1px solid white;
-    width: 300px;
-    height: 390px;
+    width: 200px;
+    height: 290px;
     border-radius: 2px;
-    margin-left: 300px;
+    margin-left: 33vw;
     margin-top: 40px;
   }
   
@@ -456,16 +460,16 @@ p{
   }
   
   #cgImg{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
   
   #produto10 {
     border: 1px solid white;
-    width: 300px;
-    height: 390px;
+    width: 200px;
+    height: 290px;
     border-radius: 2px;
-    margin-left: 300px;
+    margin-left: 33vw;
     margin-top: 40px;
   }
   
@@ -475,16 +479,16 @@ p{
   
   
   #i13Img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   #produto1 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 80px;
+    margin-left: 7vw;
   }
   
   #produto1 p{
@@ -497,11 +501,11 @@ p{
   
   #produto2 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 370px;
-    margin-top: -291px;
+    margin-left: 37vw;
+    margin-top: -191px;
   }
   
   #produto2 p{
@@ -509,17 +513,17 @@ p{
   }
   
   #a54Img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   
   #produto3 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 650px;
-    margin-top: -291px;
+    margin-left: 67vw;
+    margin-top: -191px;
   }
   
   #produto3 p{
@@ -527,17 +531,17 @@ p{
   }
   
   #blackberryImg{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   
   #produto4 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 80px;
-    margin-top: 191px;
+    margin-left: 7vw;
+    margin-top: 91px;
   }
   
   #produto4 p{
@@ -545,17 +549,17 @@ p{
   }
   
   #iphone12Img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   
   #produto5 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 370px;
-    margin-top: -290px;
+    margin-left: 37vw;
+    margin-top: -191px;
   }
   
   #produto5 p{
@@ -563,17 +567,17 @@ p{
   }
   
   #V3Img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   
   #produto6 {
     border: 1px solid white;
-    width: 200px;
-    height: 290px;
+    width: 100px;
+    height: 190px;
     border-radius: 2px;
-    margin-left: 650px;
-    margin-top: -290px;
+    margin-left: 67vw;
+    margin-top: -191px;
   }
   
   #produto6 p{
@@ -581,8 +585,8 @@ p{
   }
   
   #N2010Img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
 }
