@@ -321,9 +321,11 @@ p{
 
 
 /* Media Query para tela com largura máxima de 768px */
-@media (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 1500px) {
   #menuPrincipal {
-    height: 10vh; /* Reduzir a altura para economizar espaço vertical */
+    width: 910px;
+    height: 10%;
+     /* Reduzir a altura para economizar espaço vertical */
   }
 
   #logoPrincipal{
@@ -331,34 +333,256 @@ p{
   }
 
   #bloco1 {
-    top: 120px; /* Ajuste a posição vertical */
+    top: 202px; /* Ajuste a posição vertical */
     left: 30px; /* Ajuste a posição horizontal */
     height: auto; /* Permitir que o bloco se ajuste verticalmente */
-    width: 80%; /* Reduzir a largura para se ajustar à tela */
+    width: 430px; /* Reduzir a largura para se ajustar à tela */
+    margin-left: 230px;
   }
 
   #bloco1 h1 {
-    margin-left: 40px; /* Ajuste a margem esquerda */
-    font-size: 30px;
+    margin-left: 80px; /* Ajuste a margem esquerda */
+    font-size: 20px;
   }
 
   #bloco1 h2 {
     margin-top: -10px; /* Ajuste a margem superior */
-    margin-left: 50px; /* Ajuste a margem esquerda */
+    margin-left: 110px; /* Ajuste a margem esquerda */
     font-size: 20px;
   }
 
   #bloco1 h3 {
-    font-size: 60px; /* Reduza o tamanho da fonte */
-    margin-left: 60px; /* Ajuste a margem esquerda */
+    font-size: 40px; /* Reduza o tamanho da fonte */
+    margin-left: 90px; /* Ajuste a margem esquerda */
     margin-top: 20px; /* Ajuste a margem superior */
   }
 
   #imgFundo1{
     height: 450px;
+    width: 910px;
   }
 
   #iphone {
     display: none;
   }
+
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15%;
+  }
+  
+  .nav-list li {
+    margin-left: -5px; /* Correção: adicione 'px' após o valor */
+    padding: 0;
+  }
+  
+  .nav-list li a {
+    font-size: 14px;
+    text-decorion: none;
+    color: var(--cor-fontes);
+  }
+
+  #maisVendidos{
+    background-color: var(--cor-fundo2);
+    width: 910px;
+    height: 1000px;
+    margin-top: -20px ;
+    position: absolute;
+  }
+
+  #outrosProdutos{
+    background-color: var(--cor-fundo1);
+    width: 910px;
+    height: auto;
+    margin-top: 100px ;
+  }
+
+  #rodape{
+    
+    position: absolute;
+    margin-top: 1410px;
+    width: 930px;
+  
+  }
+
+  #produto7{
+    margin-top: 0;
+    margin-left: 300px;
+  }
+
+  #produto7 p{
+    text-align: center!important;
+  }
+  
+  #s22Img{
+    width: 300px;
+    height: 300px;
+  }
+  
+  #produto8 {
+    border: 1px solid white;
+    width: 300px;
+    height: 390px;
+    border-radius: 2px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+  
+  #produto8 p{
+    text-align: center!important;
+  }
+  
+  #TectoyImg{
+    width: 300px;
+    height: 300px;
+  }
+  
+  #produto9 {
+    border: 1px solid white;
+    width: 300px;
+    height: 390px;
+    border-radius: 2px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+  
+  #produto9 p{
+    text-align: center!important;
+  }
+  
+  #cgImg{
+    width: 300px;
+    height: 300px;
+  }
+  
+  #produto10 {
+    border: 1px solid white;
+    width: 300px;
+    height: 390px;
+    border-radius: 2px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+  
+  #produto10 p{
+    text-align: center!important;
+  }
+  
+  
+  #i13Img{
+    width: 300px;
+    height: 300px;
+  }
+
+  #produto1 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 80px;
+  }
+  
+  #produto1 p{
+    text-align: center!important;
+  }
+  
+  #m13Img{
+    width: 100%;
+  }
+  
+  #produto2 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 370px;
+    margin-top: -291px;
+  }
+  
+  #produto2 p{
+    text-align: center!important;
+  }
+  
+  #a54Img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  #produto3 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 650px;
+    margin-top: -291px;
+  }
+  
+  #produto3 p{
+    text-align: center!important;
+  }
+  
+  #blackberryImg{
+    width: 200px;
+    height: 200px;
+  }
+  
+  #produto4 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 80px;
+    margin-top: 191px;
+  }
+  
+  #produto4 p{
+    text-align: center!important;
+  }
+  
+  #iphone12Img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  #produto5 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 370px;
+    margin-top: -290px;
+  }
+  
+  #produto5 p{
+    text-align: center!important;
+  }
+  
+  #V3Img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  #produto6 {
+    border: 1px solid white;
+    width: 200px;
+    height: 290px;
+    border-radius: 2px;
+    margin-left: 650px;
+    margin-top: -290px;
+  }
+  
+  #produto6 p{
+    text-align: center!important;
+  }
+  
+  #N2010Img{
+    width: 200px;
+    height: 200px;
+  }
+
 }
